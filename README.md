@@ -27,7 +27,11 @@ No WordPress: *Usuários → Perfil → Senhas de aplicativo*. O site precisa de
 
 ## API Key
 
-O header `x-api-key` carrega `[chave MCP, URL, usuário, Application Password]` embaralhados pelo `GeraApiKey` (ofuscação, não criptografia — trate como segredo). Gere pela tela ou por:
+O header `x-api-key` carrega `[chave MCP, URL, usuário, Application Password]` embaralhados pelo `GeraApiKey` (ofuscação, não criptografia — trate como segredo). Gere pela tela, na raiz do servidor:
+
+![Página Gerador de API Key, com o passo 1 pedindo a chave MCP e o passo 2 com as abas Gerar key e Decodificar key e os campos do WordPress](docs/gerador-api-key.png)
+
+Ou pelos endpoints:
 
 | Endpoint | Corpo | Resposta |
 |---|---|---|
