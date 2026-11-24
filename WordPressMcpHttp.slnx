@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".env.example" />
+    <File Path=".gitignore" />
+    <File Path="CLAUDE.md" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/Backend/">
+    <Project Path="src/Backend/GeraApiKey/GeraApiKey.csproj" />
+    <Project Path="src/Backend/McpToolkit/McpToolkit.csproj" />
+    <Project Path="src/Backend/WordPressMcpHttp/WordPressMcpHttp.csproj" />
+  </Folder>
+</Solution>
